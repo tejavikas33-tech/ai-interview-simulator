@@ -1,0 +1,16 @@
+@"
+.env
+.env.*
+!.env.example
+node_modules/
+**/node_modules/
+dist/
+dist-ssr/
+build/
+data/local_db.json
+server/data/local_db.json
+*.log
+.vscode/
+.idea/
+.DS_Store
+"@ | Set-Content -Path .gitignore

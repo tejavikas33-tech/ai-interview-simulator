@@ -1,0 +1,20 @@
+{
+  "name": "ai-interview-simulator",
+  "version": "1.0.0",
+  "description": "Modern AI Interview Simulator with React, Tailwind CSS, Express, Supabase PostgreSQL, and Gemini AI",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start:server": "npm --prefix server start",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": [
+    "ai-interview",
+    "gemini-ai",
+    "supabase",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "",
+  "license": "ISC"
+}
